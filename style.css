@@ -73,13 +73,13 @@
     background-color: rgb(28, 209, 241);
 }
 
-.logo{
-    width:100px;
+.logo {
+    width: 100px;
     border-radius: 50%;
     margin: auto;
 }
 
-.logo-section{
+.logo-section {
     display: flex;
     justify-content: center;
 }
