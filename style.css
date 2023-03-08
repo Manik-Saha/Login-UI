@@ -1,7 +1,7 @@
 .background {
     display: flex;
     justify-content: center;
-    margin-top: 10rem;
+    margin-top: 10%;
 }
 
 .login-div {
@@ -11,7 +11,17 @@
     width: 30%;
     align-content: center;
     border-radius: 8px;
-    overflow: hidden;
+}
+
+@media(max-width:920px) {
+    .login-div {
+        background-color: white;
+        box-shadow: 10px 10px 10px 10px black;
+        padding: 5%;
+        width: 60%;
+        align-content: center;
+        border-radius: 8px;
+    }
 }
 
 @media (max-width: 450px) {
@@ -22,6 +32,7 @@
         width: 85%;
         align-content: center;
         border-radius: 8px;
+        overflow: hidden;
     }
 }
 
@@ -60,4 +71,15 @@
 
 .login-button:hover {
     background-color: rgb(28, 209, 241);
+}
+
+.logo{
+    width:100px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.logo-section{
+    display: flex;
+    justify-content: center;
 }
